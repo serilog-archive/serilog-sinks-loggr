@@ -15,4 +15,4 @@ var log = new LoggerConfiguration()
     .CreateLogger();
 ```
 
-As Loggr can track users, the sink will try to find a property called `UserName` and pass that to Loggr as a dedicated property. You can change the name of the property in one of the settings of the extension of the sink. The rest of the properties are being send as data elements to Loggr.
+As Loggr can track users, the sink will try to find a property called `UserName` and pass that to Loggr as a dedicated property. You can change the name of the property in one of the settings of the extension of the sink. The rest of the properties are being sent as data elements to Loggr.
